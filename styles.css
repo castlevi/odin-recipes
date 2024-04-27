@@ -1,3 +1,55 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-family: Brush Script MT, cursive;
+    background-color: hsl(5, 65%, 99%);
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 62px;
+    color: hsl(5, 65%, 75%);
+    background-color: hsl(185, 45%, 90%);
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsl(5, 65%, 40%);
+    margin: 50px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    color: hsl(5, 65%, 85%);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsl(5, 65%, 45%)
+}
+
+li {
+    color: hsl(185, 45%, 40%);
+}
+
+ul {
+    line-height: 150%;
+    font-size: 16px;
+    text-decoration-color: black;
+    text-wrap: 2px;
+    display: table;
+    margin: 0 auto;
+}
+
+ol {
+    line-height: 120%;
+}
+
+#comment {
+    display: table;
+    margin: 0 auto;
+    font-style: italic;
+    line-height: 250%;
 }
