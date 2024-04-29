@@ -1,6 +1,6 @@
 * {
-    font-family: Brush Script MT, cursive;
-    background-color: hsl(5, 65%, 99%);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hsl(15, 65%, 85%);
 }
 
 img {
@@ -11,18 +11,22 @@ img {
 }
 
 h1 {
+    width: 360px;
     font-weight: 500;
-    font-size: 62px;
-    color: hsl(5, 65%, 75%);
-    background-color: hsl(185, 45%, 90%);
+    font-size: 48px;
+    color: hsl(165, 65%, 40%);
+    background-color: white;
     text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: hsl(5, 65%, 40%);
     margin: 50px;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px grey;
 }
 
 h2 {
+    margin: 24px;
     font-weight: 500;
     font-size: 32px;
     color: hsl(5, 65%, 85%);
@@ -31,7 +35,7 @@ h2 {
 }
 
 li {
-    color: hsl(185, 45%, 40%);
+    color: hsl(185, 45%, 35%);
 }
 
 ul {
@@ -45,6 +49,11 @@ ul {
 
 ol {
     line-height: 120%;
+    margin: 50px;
+}
+
+p {
+    margin: 50px;
 }
 
 #comment {
@@ -52,4 +61,16 @@ ol {
     margin: 0 auto;
     font-style: italic;
     line-height: 250%;
+}
+
+.option {
+    margin: 16px auto;
+    display: block;
+    font-size: 16px;
+    color: black;
+    background-color: ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 44px;
+    width: 244px;
 }
